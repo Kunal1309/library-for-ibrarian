@@ -7,6 +7,7 @@ import logInRoute from "./routes/logInRoute.js"; // Importing login route
 import cors from "cors"; // Importing cors for handling Cross-Origin Resource Sharing
 import Auth from "./middleware/Auth.js"; // Importing authentication middleware
 import path from "path";
+
 const __dirname = path.resolve();
 
 const app = express(); // Creating an express application
@@ -19,19 +20,6 @@ app.use(express.json({ limit: "10mb" }));
 
 // Middleware for Handling Cors Policy
 app.use(cors());
-
-// Route for handling root endpoint
-// app.get("/", (req, res) => {
-//   res.setHeader("Access-Control-Allow-Origin", "*");
-//   res.setHeader("Access-Control-Allow-Credentials", "true");
-//   res.setHeader("Access-Control-Max-Age", "1800");
-//   res.setHeader("Access-Control-Allow-Headers", "content-type");
-//   res.setHeader(
-//     "Access-Control-Allow-Methods",
-//     "PUT, POST, GET, DELETE, PATCH, OPTIONS"
-//   );
-//   return res.status(234).send("Welcome to Kunal's Book Library");
-// });
 
 // Route for login functionality
 app.use("/login", logInRoute);
