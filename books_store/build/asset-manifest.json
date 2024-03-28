@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f75263e1.css",
+    "main.js": "/static/js/main.f9754447.js",
+    "static/media/Book_Image.jpeg": "/static/media/Book_Image.ca406099ef5302b99378.jpeg",
+    "static/media/student_Image.avif": "/static/media/student_Image.3b3fe474592593b87364.avif",
+    "static/media/hand-book-logo-illustration-art-background-43965136.webp": "/static/media/hand-book-logo-illustration-art-background-43965136.bfae097a3a8b754ae6e4.webp",
+    "static/media/student_Form.jpeg": "/static/media/student_Form.d33ab1f76fc24becffd7.jpeg",
+    "index.html": "/index.html",
+    "main.f75263e1.css.map": "/static/css/main.f75263e1.css.map",
+    "main.f9754447.js.map": "/static/js/main.f9754447.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f75263e1.css",
+    "static/js/main.f9754447.js"
+  ]
+}
