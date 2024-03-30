@@ -1,11 +1,11 @@
 import express from "express"; // Import Express for routing
 import { Student } from "../models/studentModel.js"; // Import Student model
-import Auth from "../middleware/auth.js"; // Import authentication middleware
+// import Auth from "../middleware/auth.js"; // Import authentication middleware
 import multer from "multer"; // Import Multer for file uploads
 import path from "path"; // Import Path for file paths
 
 const router = express.Router(); // Initialize Express Router
-router.use(Auth); // Use authentication middleware for all routes
+// router.use(Auth); // Use authentication middleware for all routes
 
 
 const storage = multer.diskStorage({
